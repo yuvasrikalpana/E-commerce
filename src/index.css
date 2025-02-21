@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: "slick";
+  src: url("/fonts/slick.woff") format("woff"),
+    url("/fonts/slick.ttf") format("truetype");
+}
+
+/* You can then include slick styles */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
